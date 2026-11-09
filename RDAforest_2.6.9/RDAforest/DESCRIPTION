@@ -1,0 +1,14 @@
+Package: RDAforest
+Title: Random forest analysis of large genomic matrices, based on
+        ordination scores
+Version: 2.6.9
+Author: Mikhail Matz
+Maintainer: Mikhail Matz <matz@utexas.edu>
+Description: Identifying factors driving variation within large genomic datasets via random forest regression against their principal components. Based on gradientForest by Nick Ellis.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Depends: dplyr, raster, sf, clv, ggplot2, extendedForest,
+        gradientForest, vegan
+NeedsCompilation: no
+Packaged: 2025-10-07 20:41:17 UTC; cmonstr
